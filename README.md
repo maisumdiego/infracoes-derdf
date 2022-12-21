@@ -1,5 +1,12 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=rect&color=0:1a6e2c,100:43a341&section=header&height=120&text=Infraçoes%20registradas%20pelo%20DER%20DF%&desc=Tratamento%20e%20visualização%20de%20dados&animation=fadeIn&fontColor=ffffff&fontSize=30&descSize=15&fontAlignY=45&descAlignY=70"/>
 
+## Navegação
+1. [Sobre o projeto](#sobre-o-projeto)  
+2. [Sobre o tema](#sobre-o-tema)
+2. [Tecnologias utilizadas](#tecnologias-utilizadas)  
+3. [Conhecendo os dados](#conhecendo-os-dados)  
+4. [Resultados](#resultados)
+
 <div> 
 <img align=right width="35%" height="35%" src="https://lagosul.com.br/wp-content/uploads/2019/02/der-df.jpg">
   
@@ -27,7 +34,7 @@ Os datasets tratados e analisados neste projeto são referentes às infrações 
 ### Esquema original
 
 | n° | Coluna                  |
-|----|-------------------------|
+|:---:|-------------------------|
 |  0 | tipo_infracao           |
 |  1 | descricao               |
 |  2 | tipo_infrator           |
@@ -42,5 +49,20 @@ Os datasets tratados e analisados neste projeto são referentes às infrações 
 | 11 | auinf_local_longitude   |
 | 12 | grav_tipo               |
 
-## Resultados gerados
-Realizada a limpeza dos dados, foram compilados em um só arquivo .csv para ser utilizado no software Power BI para geração de dashboards interativos. Abaixou seguem algumas imagens dos dashboards gerados.
+## Resultados
+### Dashboards
+Realizada a limpeza dos dados, compiliou-se tudo em um só arquivo .csv para ser utilizado como fonte pelo software Power BI, sendo possível a geração de dashboards. Abaixo seguem algumas imagens dos dashboards gerados.
+
+<img width="60%" height="60%" src="https://raw.githubusercontent.com/maisumdiego/infracoes-derdf/master/Dash1.png">
+<img width="60%" height="60%" src="https://raw.githubusercontent.com/maisumdiego/infracoes-derdf/master/Dash2.png">
+
+Para uma explicação do processo de construção dos dashboards e insights obtidos através deles, publiquei um artigo no Linkedin: [Análise das infrações registradas no Distrito Federal em 2021](https://www.linkedin.com/pulse/an%C3%A1lise-das-infra%C3%A7%C3%B5es-registradas-distrito-federal-em-diego-ferreira/)
+
+### Gráficos e estatística
+Ainda no Jupyter, foram realizadas algumas inferências estatísticas utilizando a própria biblioteca Pandas. Para melhor visualização das informações obtidas, elaborou-se gráficos com a ajuda das bibliotecas Seaborn e Matplotlib.
+
+<img width="60%" height="60%" src="https://raw.githubusercontent.com/maisumdiego/infracoes-derdf/master/Gr%C3%A1ficos%20Autos%20finais%20de%20semana%20e%20negar-se.jpeg">
+<img width="60%" height="60%" src="https://raw.githubusercontent.com/maisumdiego/infracoes-derdf/master/Correla%C3%A7%C3%A3o%20negar%20exame%20e%20total%20final%20de%20semana%20durante%20a%20madrugada.jpeg">
+
+Uma abordagem mais aprofundada dos gráficos e da estatística utilizados nesse conjunto de datasets pode ser encontrada nesse artigo publicado no Linkedin: [Infrações cometidas no DF e correlações com o coeficiente de Pearson - O que é correlação?](https://www.linkedin.com/pulse/infra%C3%A7%C3%B5es-cometidas-df-e-correla%C3%A7%C3%B5es-com-o-de-pearson-diego-ferreira/)
+

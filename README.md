@@ -6,7 +6,6 @@
 ## Sobre o projeto
 Os datasets tratados e analisados neste projeto são referentes às infrações registradas pelo [Departamento de Estradas de Rodagem do Distrito Federal](https://www.der.df.gov.br/) no ano de 2021. Os arquivos podem ser encontrados no [Portal de Dados Abertos](https://dados.gov.br/dados/conjuntos-dados) do governo federal. Neste repositório é possível encontrar o código utilizado no processo de tratamento dos dados, bem como alguns gráficos e dashboards construídos com as informações obtidas.
 </div>
-&nbsp;
 
 ## Sobre o tema
 >A sigla DER DF é referente ao Departamento de Estradas de Rodagem do Distrito Federal. Segundo o site do órgão, o departamento tem como missão “Assegurar a qualidade da infraestrutura viária, do trânsito e da mobilidade nas rodovias do Distrito Federal, comprometida com o desenvolvimento sustentável”. Cabe ao DER a administração de rodovias e estradas estaduais.  E este princípio é válido tanto para o DER DF quanto para os respectivos Departamentos de Estradas de Rodagem de outros estados brasileiros.

@@ -66,3 +66,4 @@ Ainda no Jupyter, foram realizadas algumas inferências estatísticas utilizando
 
 Uma abordagem mais aprofundada dos gráficos e da estatística utilizados nesse conjunto de datasets pode ser encontrada nesse artigo publicado no Linkedin: [Infrações cometidas no DF e correlações com o coeficiente de Pearson - O que é correlação?](https://www.linkedin.com/pulse/infra%C3%A7%C3%B5es-cometidas-df-e-correla%C3%A7%C3%B5es-com-o-de-pearson-diego-ferreira/)
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=rect&color=0:43a341,100:1a6e2c&section=footer&height=70&animation=fadeIn&fontColor=ffffff&fontSize=30&descSize=15&fontAlignY=45&descAlignY=70"/>
